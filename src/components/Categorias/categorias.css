@@ -1,0 +1,37 @@
+.category{
+    float: left;
+    width: 100%;
+    max-width: 240px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+.category h2{
+    background-color: #070709;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.category ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.category ul li {
+    padding: 5px;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.category ul li:hover{
+    border: 1px solid royalblue;
+}

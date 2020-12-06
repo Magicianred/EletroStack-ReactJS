@@ -1,0 +1,15 @@
+nav.navbar{
+    background-color: #070709;
+}
+
+.navbar-nav li.nav-item a.nav-link{
+    padding: 8px 12px;
+    border-bottom: 2px solid transparent;
+    transition: 300ms;
+}
+
+
+.navbar-nav li.nav-item a.nav-link:hover{
+    color: white;
+    border-bottom: 2px solid royalblue;
+}

@@ -1,0 +1,23 @@
+form{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+form .titulo-pedido{
+    width: 50%;
+    color: white;
+}
+
+.form-group .form-control{
+    color: white;
+
+}
+
+.form-group .form-control .option{
+    color: white;
+    background-color: #070709;
+}
