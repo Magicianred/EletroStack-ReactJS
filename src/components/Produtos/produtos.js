@@ -5,7 +5,7 @@ import './produtos.css';
 export default function Produtos(){
     const [ produtos, setProdutos ] = useState([]);
     useEffect(async () => {
-        const resposta = await fetch("http://localhost/API/produtosapi.php");
+        const resposta = await fetch("http://localhost:3001/");
         const dados = await resposta.json()
         setProdutos(dados);
     }, []);

@@ -5,7 +5,7 @@ import './meus_pedidos.css';
 export default function Meus_Pedidos(){
     const [ pedidos, setPedidos ] = useState([]);
     useEffect(async () => {
-        const resposta = await fetch("http://localhost/API/tabelapedidos.php");
+        const resposta = await fetch("http://localhost:3001/pedidos");
         const dados = await resposta.json()
         setPedidos(dados);
     }, []);

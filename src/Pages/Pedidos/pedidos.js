@@ -84,7 +84,7 @@ export default function Pedidos(){
             </div>
 
             <button className="btn btn-primary" name="enviar" type="submit">Enviar</button>
-            <a href="produtos2.php" className="btn btn-danger">Cancelar</a>
+            <a href="/produtos" className="btn btn-danger">Cancelar</a>
         </form>
     )
 }
