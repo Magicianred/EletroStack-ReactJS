@@ -1,0 +1,54 @@
+.center{
+    display: flex;
+    width: 100%;
+} 
+
+.locations{
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    height: 280px;
+}
+
+.lazy-text{
+    width: 100%;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #ccc;
+    margin: 20px 0;
+    animation-name: lazyloading;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.lazy-text.title{
+    height: 25px;
+    margin-bottom: 80px;
+}
+
+.lazy-text.two, .four{
+    width: 90%;
+}
+
+.lazy-text.three{
+    width: 70%;
+}
+
+@keyframes lazyloading{
+    0%{
+        background-color: rgb(139, 139, 139);
+    }
+
+    50%{
+        background-color: rgb(82, 82, 82);
+    }
+
+    100%{
+        background-color: rgb(139, 139, 139);
+    }
+}

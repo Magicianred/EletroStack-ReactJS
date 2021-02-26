@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Produto(props){
     return(
         <div className="product card card-body" id={props.categoria}>
-            <div className="container img-product"><img className="card-img-top" src={require(`../${props.imagem}`).default} alt="Galaxy S10" title="Galaxy S10" /></div>
+            <div className="container img-product"><img className="card-img-top" src={require(`./${props.imagem}`).default} alt="Galaxy S10" title="Galaxy S10" /></div>
 
             <div className="title-product">
                 <p className="card-text"> {props.descricao} </p>

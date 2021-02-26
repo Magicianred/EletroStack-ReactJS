@@ -1,9 +1,0 @@
-.container-product{
-    float: right;
-    width: 100%;
-    max-width: 1020px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}

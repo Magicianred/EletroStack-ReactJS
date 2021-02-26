@@ -1,9 +1,14 @@
-import FaleConosco from '../../components/FaleConosco/faleconosco.js';
+import { lazy, Suspense } from 'react'
+import LazyFaleConosco from '../../components/FaleConosco/lazyfaleconosco'
+
+const FaleConosco = lazy(() => import('../../components/FaleConosco/faleconosco'))
 
 export default function PageFaleConosco(){
     return(
         <div>
-            <FaleConosco />
+            <Suspense fallback={<LazyFaleConosco />}>
+                <FaleConosco />
+            </Suspense>
         </div>
     )
 }
